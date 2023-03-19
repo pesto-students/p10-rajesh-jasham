@@ -107,7 +107,7 @@ Since the whole process and format is standardized, there is no guessing about h
 
 The server then handles the request appropriately and returns a so called "response". Again, a "response" is a technical thing and kind of similar to a "request". You could say it's basically a "request" in the opposite direction.
 
-Like a request, a response can contain data, metadata etc. When requesting a page like academind.com, the response will contain the code that is required to render the page onto the screen.
+Like a request, a response can contain data, metadata etc. When requesting a page like github.com, the response will contain the code that is required to render the page onto the screen.
 
 ![alt text](./git_response.PNG)
 
