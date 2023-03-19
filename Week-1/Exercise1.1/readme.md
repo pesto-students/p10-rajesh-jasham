@@ -109,7 +109,7 @@ The server then handles the request appropriately and returns a so called "respo
 
 Like a request, a response can contain data, metadata etc. When requesting a page like academind.com, the response will contain the code that is required to render the page onto the screen.
 
-![alt text](git_response.PNG)
+![alt text](./git_response.PNG)
 
 What happens on the server?
 
