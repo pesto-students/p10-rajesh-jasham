@@ -89,7 +89,7 @@ With the IP address resolved, the browser goes ahead and makes a request to the 
 
 The browser bundles up a bunch of information (What's the exact URL? Which kind of request should be made? Should metadata be attached) and sends that data package to the IP address.
 
-![alt text](github.png)
+![alt text](githubmain.PNG)
 
 The data is sent via the "HyperText Transfer Protocol" (known as "HTTP") - a standardized protocol which defines what a request (and response) has to look like, which data may be included (and in which form) and how the request will be submitted. You can learn more about HTTP here.
 
