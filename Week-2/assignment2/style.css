@@ -1,0 +1,68 @@
+.main-wrapper {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.item-1 {
+  background-color: red;
+  top: 0;
+  left: 0;
+  transition-duration: 1s;
+}
+
+.item-2 {
+  background-color: yellow;
+  top: 0;
+  right: 0;
+  transition-duration: 1s;
+}
+
+.item-3 {
+  background-color: blue;
+  bottom: 0;
+  left: 0;
+  transition-duration: 1s;
+}
+
+.item-4 {
+  background-color: green;
+  bottom: 0;
+  right: 0;
+  transition-duration: 1s;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.main-wrapper:hover > .item-1 {
+  transform: rotate(90deg);
+  transform-origin: 0% 0%;
+}
+.main-wrapper:hover > .item-2 {
+  transform: rotate(-90deg);
+  transform-origin: 100% 0%;
+}
+
+.main-wrapper:hover > .item-3 {
+  transform: rotate(-90deg);
+  transform-origin: 0% 100%;
+}
+.main-wrapper:hover > .item-4 {
+  transform: rotate(90deg);
+  transform-origin: 100% 100%;
+}
