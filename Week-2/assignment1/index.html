@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link href="./style.css" rel="stylesheet" />
+    <title>Assignment 2</title>
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="main">
+    <main>
+      <header>
+        <h1>
+          Lorem, ipsum dolor sit amet<br />
+          consectetur adipisicing elit.
+        </h1>
+      </header>
+      <!-- Grid Layout -->
+      <section class="grid-section-1">
+        <article class="grid-article-1">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+            at fugiat ea vel, ratione asperiores hic iure quidem quasi,
+            cupiditate autem cumque veritatis. Vitae, autem asperiores dolorum
+            laboriosam illo a voluptatibus harum expedita laborum libero
+            accusantium minus error vel totam quia ea repellat maiores quis
+            unde. Sequi magnam commodi excepturi!
+          </p>
+          <img
+            src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg"
+            alt="nature"
+          />
+        </article>
+        <article class="grid-article-2">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            omnis sint perspiciatis numquam saepe laudantium voluptates, at
+            blanditiis exercitationem dolorum vitae dolores cupiditate ab animi
+            dignissimos harum natus eligendi fuga.
+          </p>
+        </article>
+        <article class="grid-article-3">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            omnis sint perspiciatis numquam saepe laudantium voluptates, at
+            blanditiis exercitationem dolorum vitae dolores cupiditate ab animi
+            dignissimos harum natus eligendi fuga.
+          </p>
+        </article>
+        <article class="grid-article-4">
+          <h2>Lorem ipsum dolor sit amet.</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            omnis sint perspiciatis numquam saepe laudantium voluptates, at
+            blanditiis exercitationem dolorum vitae dolores cupiditate ab animi
+            dignissimos harum natus eligendi fuga.
+          </p>
+        </article>
+      </section>
+      <!-- Form Layout -->
+      <section class="grid-section-2">
+        <form>
+          <div>
+            <label>Title</label>
+            <input type="radio" id="mr" name="preffix" value="Mr" />
+            <label for="mr">Mr</label>
+            <input type="radio" id="mrs" name="preffix" value="Mrs" />
+            <label for="mrs">Mrs</label>
+            <input type="radio" id="Miss" name="preffix" value="miss" />
+            <label for="miss">Miss</label>
+          </div>
+          <div>
+            <label>First Name</label>
+            <input type="text" title="Name should only contain letters" />
+          </div>
+          <div>
+            <label>Last Name</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>Email</label>
+            <input
+              type="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+            />
+          </div>
+          <div>
+            <label>Phone number</label>
+            <input type="tel" pattern="[0-9]{10}" />
+          </div>
+          <div>
+            <label>Password</label>
+            <input
+              type="password"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+            />
+          </div>
+          <div>
+            <label>Confirm your password</label>
+            <input
+              type="password"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+              title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"
+            />
+          </div>
+          <div>
+            <label>Country</label>
+            <select>
+              <option>Canada</option>
+              <option>India</option>
+              <option>America</option>
+            </select>
+          </div>
+          <div>
+            <input type="checkbox" required />
+            <label>I agree to the <a href="#">Terms and condition</a></label>
+          </div>
+          <div>
+            <input type="submit" value="Sign up" class="button" />
+          </div>
+        </form>
+      </section>
+      <footer><span>&#169; Designed by Jasham 2023</span></footer>
+    </main>
+  </body>
+</html>
